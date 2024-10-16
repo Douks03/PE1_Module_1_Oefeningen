@@ -6,7 +6,13 @@ const userInput = readline.createInterface({input, output});
 
 
 
-// Voeg hier je eigen code in
+
+let getal1= await userInput.question('Geef een getal');
+let getal2= await userInput.question('Geef nog een getal');
+
+let som= Number(getal1)+ Number(getal2);
+
+console.log('De som van deze getallen is' + som );
 
 
 
